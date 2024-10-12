@@ -2,7 +2,7 @@ import openai
 import streamlit as st
  
 # Access the API key from Streamlit secrets
-openai.api_key = st.secrets["OPENAI_API_KEY"]
+openai.api_key = st.secrets["OPEN_API_KEY"]
  
 # Function to generate text with continuous stream
 def generate_text(prompt):
